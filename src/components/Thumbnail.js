@@ -64,7 +64,7 @@ const  Thumbnail = (props) => {
 
         var ts = Math.floor(Date.now()/1000);
 
-        const file1 = option === 1 ? ts+videofile.name.replace(/ /g, '') :  ts+videofile.name;
+        const file1 =  ts+videofile.name.replace(/ /g, '');
         const file2 = editorText;
         const file3 = videofile;
 
